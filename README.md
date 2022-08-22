@@ -14,7 +14,7 @@
 Primero se debe bajar el proyecto del repositorio GitHub. Una vez teniendo el proyecto en la maquina 
 y cumpliendo con todos los prerrequisitos, podemos abrir una terminal en la carpeta del proyecto 
 y ejecutar el siguiente comando para correr el servidor local:
-- uvicorn main:app --reload
+- uvicorn main:app --reload 
 
 ## **Como probar la app:**
 Una vez ejecutado el servidor local para poder probar las funciones REST de la API se aconseja el uso de 
