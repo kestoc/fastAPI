@@ -38,6 +38,5 @@ def delete_data(item_id : int):
     return {"items": response.json() }
 
 @app.get("/items/{item_id}")
-def read_item(item_id: int):
-    response = requests.get(URL+"/"+str(item_id), {}, timeout=5)
-    return {"items": response.json() }
+def read_item(item_id: int, q: Union[str, None] = None):
+    return {"item_id": item_id, "q": q}
